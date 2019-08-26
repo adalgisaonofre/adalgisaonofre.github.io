@@ -1,0 +1,146 @@
+/* cascading */
+
+body,
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+body{
+    background-image: url(fundo_projeto.jpg);
+    background-size: 350px;
+    background-attachment: scroll;
+}
+
+.principal{
+    width:1000px;
+    min-height: 100%;
+    position: relative;
+    margin:0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    display:block;
+}
+
+.cabeçalho{
+    height:100px;
+}
+
+.titulo{
+    float: left;
+}
+
+.titulo p{ 
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(245, 230, 230);
+    display:block;
+    padding: 35px 0 0 0;
+    color:rgb(9, 94, 61);
+}
+
+#secoes ul{
+    margin:0;
+	padding:0;
+    list-style:none;
+}
+
+#secoes ul li{
+    display: inline-block;
+}
+
+#secoes{
+    background-color: rgb(241, 209, 102);
+    float:right;
+    margin-top:40px;
+    margin-right:0;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#secoes a{
+    display: block;
+    color: whitesmoke;
+    padding:20px 20px;
+}
+
+.topo{
+    background-color:rgba(236, 29, 132, 0.822);
+    display: inline-block;
+    width: 67%;
+    height: 100%;
+    color:rgb(245, 230, 230);
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.topo{
+    float:left
+}
+
+#inicio{
+    font-family: Tserif sans-serif;
+    padding:20px;
+    text-align: center;
+}
+
+#perfil{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.corpo{
+    padding: 20px;
+}
+
+.barra-lateral{
+    background-color:rgba(24, 173, 116, 0.822);
+    color:rgb(245, 230, 230);
+    display: inline-block;
+    width:33%;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.barra-lateral{
+    float:right;
+}
+
+.conteudo{
+    padding:20px;
+}
+
+#signo, #harry, #irmas, #perfil, #musica, #choro, #felicidade{
+    border-radius:10px;
+}
+
+#contato ul{
+    margin:0;
+	padding:0;
+    list-style:none;
+}
+
+#contato ul li{
+    display: inline-block;
+}
+
+#contato{
+    float:left;
+}
+
+#contato{
+    padding:20px 0px;
+    width: 1000px;
+    height: 100%;
+}
+
+#container{
+    clear: both;
+    background-color: rgb(241, 209, 102);
+    color:whitesmoke;
+    text-align: center;
+    width: 100%
+}
